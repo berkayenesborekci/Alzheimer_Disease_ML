@@ -4,7 +4,7 @@ A supervised machine learning project that compares Logistic Regression, Random 
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 | Name | Role | Contribution |
 |------|------|-------------|
@@ -15,7 +15,7 @@ A supervised machine learning project that compares Logistic Regression, Random 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Alzheimer's Disease Dataset — Kaggle](https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset)
 - **Size:** 2,149 patients × 35 columns
@@ -35,7 +35,7 @@ A supervised machine learning project that compares Logistic Regression, Random 
 
 ---
 
-## 🔧 Preprocessing
+## Preprocessing
 
 1. **Dropped irrelevant columns:** `PatientID` (sequential row number, no predictive value) and `DoctorInCharge` (constant value across all patients)
 2. **Target separation:** `Diagnosis` column extracted as `y`; remaining columns used as features `X`
@@ -45,7 +45,7 @@ A supervised machine learning project that compares Logistic Regression, Random 
 
 ---
 
-## 🤖 Models
+## Models
 
 | Model | Key Parameters | Notes |
 |-------|---------------|-------|
@@ -57,7 +57,7 @@ A supervised machine learning project that compares Logistic Regression, Random 
 
 ---
 
-## 📈 Results
+## Results
 
 | Model | Accuracy | vs. Baseline |
 |-------|----------|-------------|
@@ -73,7 +73,7 @@ A supervised machine learning project that compares Logistic Regression, Random 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ALZHEIMER_ML_PROJECT/
@@ -100,7 +100,7 @@ ALZHEIMER_ML_PROJECT/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 ```bash
